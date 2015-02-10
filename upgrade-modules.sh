@@ -19,7 +19,7 @@ upgrade_all()
             upgrade_lib $lib
           fi
       done < "$libs_file"
-	fi
+  fi
 }
 
 export LIBS_FILE=$1
